@@ -30,7 +30,7 @@ db = client[os.environ['DB_NAME']]
 app = FastAPI()
 api_router = APIRouter(prefix="/api")
 
-# CORS Configuration
+# CORS Configuration - allow cross-origin requests from Vercel frontend
 CORS_ORIGINS = os.environ.get('CORS_ORIGINS', '*')
 origins = [o.strip() for o in CORS_ORIGINS.split(',')] if CORS_ORIGINS != '*' else ["*"]
 app.add_middleware(
