@@ -36,7 +36,7 @@ origins = [o.strip() for o in CORS_ORIGINS.split(',')] if CORS_ORIGINS != '*' el
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
