@@ -30,6 +30,17 @@ db = client[os.environ['DB_NAME']]
 app = FastAPI()
 api_router = APIRouter(prefix="/api")
 
+# CORS Configuration
+CORS_ORIGINS = os.environ.get('CORS_ORIGINS', '*')
+origins = [o.strip() for o in CORS_ORIGINS.split(',')] if CORS_ORIGINS != '*' else ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Telegram Bot Configuration
 BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '')
 telegram_app = None
