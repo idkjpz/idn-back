@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: idn-backend
+    runtime: python
+    rootDir: backoffice-idn-main/backoffice-idn-main/backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/
+    envVars:
+      - key: MONGO_URL
+        sync: false
+      - key: DB_NAME
+        value: idn_backoffice
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD_HASH
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRE_HOURS
+        value: "24"
+      - key: CORS_ORIGINS
+        sync: false

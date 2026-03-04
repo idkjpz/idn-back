@@ -1,0 +1,304 @@
+{
+  "summary": {
+    "total_tests": 47,
+    "passed_tests": 46,
+    "failed_tests": 1,
+    "success_rate": 97.87234042553192,
+    "timestamp": "2025-11-30T05:40:20.870426",
+    "test_url": "https://gymbot-telegram.preview.emergentagent.com"
+  },
+  "detailed_results": [
+    {
+      "test": "Root API Endpoint",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.108709"
+    },
+    {
+      "test": "Get All Products",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.146870"
+    },
+    {
+      "test": "Create Product (Orales)",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.186031"
+    },
+    {
+      "test": "Create Product (Inyectables)",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.225235"
+    },
+    {
+      "test": "Get Single Product",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.261835"
+    },
+    {
+      "test": "Product Structure Validation",
+      "success": true,
+      "details": "All required fields present",
+      "timestamp": "2025-11-30T05:40:19.262284"
+    },
+    {
+      "test": "Update Product",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.304044"
+    },
+    {
+      "test": "Product Update Verification",
+      "success": true,
+      "details": "Product updated correctly",
+      "timestamp": "2025-11-30T05:40:19.304481"
+    },
+    {
+      "test": "Get All Orders",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.336823"
+    },
+    {
+      "test": "Get Single Order",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.375662"
+    },
+    {
+      "test": "Order Structure Validation",
+      "success": true,
+      "details": "All required fields present",
+      "timestamp": "2025-11-30T05:40:19.376236"
+    },
+    {
+      "test": "Update Order Status to confirmado",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.411426"
+    },
+    {
+      "test": "Order Status Update Verification (confirmado)",
+      "success": true,
+      "details": "Status correctly updated to confirmado",
+      "timestamp": "2025-11-30T05:40:19.411899"
+    },
+    {
+      "test": "Get Bot Status",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.445844"
+    },
+    {
+      "test": "Bot Status Structure",
+      "success": true,
+      "details": "Bot status structure valid",
+      "timestamp": "2025-11-30T05:40:19.446275"
+    },
+    {
+      "test": "Update Bot Status",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.482907"
+    },
+    {
+      "test": "Get TRON Wallet",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.517341"
+    },
+    {
+      "test": "TRON Wallet Structure",
+      "success": true,
+      "details": "TRON wallet structure valid",
+      "timestamp": "2025-11-30T05:40:19.517838"
+    },
+    {
+      "test": "Update TRON Wallet",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.555273"
+    },
+    {
+      "test": "Get WhatsApp Config",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.589403"
+    },
+    {
+      "test": "WhatsApp Config Structure",
+      "success": true,
+      "details": "WhatsApp config structure valid",
+      "timestamp": "2025-11-30T05:40:19.589948"
+    },
+    {
+      "test": "Update WhatsApp Config",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.624397"
+    },
+    {
+      "test": "Get Telegram Support Config",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.658223"
+    },
+    {
+      "test": "Telegram Support Structure",
+      "success": true,
+      "details": "Telegram support structure valid",
+      "timestamp": "2025-11-30T05:40:19.658782"
+    },
+    {
+      "test": "Update Telegram Support Config",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.692516"
+    },
+    {
+      "test": "Get Bot Messages",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.731585"
+    },
+    {
+      "test": "Create Bot Message",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.769685"
+    },
+    {
+      "test": "Get Single Bot Message",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.806279"
+    },
+    {
+      "test": "Bot Message Structure",
+      "success": true,
+      "details": "All required fields present",
+      "timestamp": "2025-11-30T05:40:19.806793"
+    },
+    {
+      "test": "Update Bot Message",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.882015"
+    },
+    {
+      "test": "Get Statistics",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.921928"
+    },
+    {
+      "test": "Statistics Structure",
+      "success": true,
+      "details": "All required fields present",
+      "timestamp": "2025-11-30T05:40:19.922389"
+    },
+    {
+      "test": "Get Conversations",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.957533"
+    },
+    {
+      "test": "Get Conversation Messages",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:19.992568"
+    },
+    {
+      "test": "Send Message to Client",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:20.544613"
+    },
+    {
+      "test": "Mark Conversation Read",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:20.580737"
+    },
+    {
+      "test": "Get Bot Interactions",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:20.619449"
+    },
+    {
+      "test": "Bot Interactions Structure",
+      "success": true,
+      "details": "All required fields present",
+      "timestamp": "2025-11-30T05:40:20.619965"
+    },
+    {
+      "test": "Get Bot Interactions (Filtered)",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:20.651935"
+    },
+    {
+      "test": "Product Not Found",
+      "success": true,
+      "details": "Status: 404, Expected: 404",
+      "timestamp": "2025-11-30T05:40:20.686494"
+    },
+    {
+      "test": "Order Not Found",
+      "success": true,
+      "details": "Status: 404, Expected: 404",
+      "timestamp": "2025-11-30T05:40:20.725115"
+    },
+    {
+      "test": "Bot Message Not Found",
+      "success": true,
+      "details": "Status: 404, Expected: 404",
+      "timestamp": "2025-11-30T05:40:20.758491"
+    },
+    {
+      "test": "Conversation Not Found",
+      "success": false,
+      "details": "Status: 200, Expected: 404, Response: []",
+      "timestamp": "2025-11-30T05:40:20.796948"
+    },
+    {
+      "test": "Cleanup Product f4eeb2e9-9da5-43da-93eb-7f5e45e40442",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:20.831569"
+    },
+    {
+      "test": "Cleanup Product f4eeb2e9-9da5-43da-93eb-7f5e45e40442",
+      "success": true,
+      "details": "Test product cleaned up",
+      "timestamp": "2025-11-30T05:40:20.832008"
+    },
+    {
+      "test": "Cleanup Product dee47ec2-de6f-40ec-aa6d-c87d52de0e43",
+      "success": true,
+      "details": "Status: 200, Expected: 200",
+      "timestamp": "2025-11-30T05:40:20.869711"
+    },
+    {
+      "test": "Cleanup Product dee47ec2-de6f-40ec-aa6d-c87d52de0e43",
+      "success": true,
+      "details": "Test product cleaned up",
+      "timestamp": "2025-11-30T05:40:20.870157"
+    }
+  ],
+  "created_resources": {
+    "products": [
+      "f4eeb2e9-9da5-43da-93eb-7f5e45e40442",
+      "dee47ec2-de6f-40ec-aa6d-c87d52de0e43"
+    ],
+    "conversations": [],
+    "bot_messages": [
+      "e1c66339-804f-453a-95f6-85a7e185a258"
+    ]
+  }
+}
